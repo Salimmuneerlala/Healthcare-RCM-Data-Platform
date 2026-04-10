@@ -38,5 +38,17 @@ See `/adf/screenshots`
 ## Data Model (Star Schema)
 ![Data Model](docs/images/DataModel.png)
 
+
+## 🔄 Azure Data Factory Pipelines
+
+ADF is used for orchestration of ingestion and transformation workflows.
+
+- Config-driven pipelines using Lookup + ForEach
+- Supports full and incremental loads
+- Modular pipeline design using Execute Pipeline
+- Integrated with Databricks for transformations
+
+See detailed pipeline flow in `adf/README.md`
+
 ---
 
