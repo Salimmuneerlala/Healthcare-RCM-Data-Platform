@@ -40,4 +40,3 @@ See `/adf/screenshots`
 
 ---
 
-⭐ This project demonstrates real-world data engineering practices using Azure.
