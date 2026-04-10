@@ -32,6 +32,9 @@ Landing → Bronze → Silver → Gold
 ## 📸 ADF Pipeline
 See `/adf/screenshots`
 
+## 🏗️ Architecture Diagram
+![Architecture](docs/images/architecture.png)
+
 ---
 
 ⭐ This project demonstrates real-world data engineering practices using Azure.
