@@ -35,6 +35,9 @@ See `/adf/screenshots`
 ## 🏗️ Architecture Diagram
 ![Architecture](docs/images/architecture.png)
 
+## 📊 Data Model (Star Schema)
+![Data Model](docs/images/data_model.png)
+
 ---
 
 ⭐ This project demonstrates real-world data engineering practices using Azure.
