@@ -9,7 +9,7 @@ Built an end-to-end Azure Data Engineering solution to process healthcare financ
 - ADLS Gen2 (storage)
 - Delta Lake (data reliability)
 
-## 🏗️ Architecture
+## 🏗️ Medallion Architecture
 Landing → Bronze → Silver → Gold
 
 ## 🔄 Data Sources
