@@ -33,10 +33,10 @@ Landing → Bronze → Silver → Gold
 See `/adf/screenshots`
 
 ## Architecture Diagram
-![Architecture](docs/images/architecture.png)
+![Architecture](docs/images/ArchitectureDiagram.png)
 
 ## Data Model (Star Schema)
-![Data Model](docs/images/data_model.png)
+![Data Model](docs/images/DataModel.png)
 
 ---
 
