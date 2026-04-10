@@ -1,10 +1,10 @@
-# 🔄 Azure Data Factory (ADF) Pipelines
+# Azure Data Factory (ADF) Pipelines
 
 This project uses Azure Data Factory (ADF) to orchestrate end-to-end data ingestion and transformation workflows for the Healthcare RCM platform.
 
 ---
 
-## 📌 Overview
+## Overview
 
 ADF acts as the **orchestration layer**, responsible for:
 
@@ -21,7 +21,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 
 ---
 
-## 🔑 Key Components
+## Key Components
 
 ### 1. Linked Services
 
@@ -30,7 +30,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * Azure Databricks
 * Azure Key Vault (secrets)
 
-📸
+
 ![Linked Services](screenshots/01_linked_services.png)
 
 ---
@@ -40,7 +40,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * Enables dynamic connection handling
 * Supports multiple hospital data sources
 
-📸
+
 ![Parameterized LS](screenshots/02_linked_service_parameterized.png)
 
 ---
@@ -51,10 +51,10 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * ADLS datasets for file storage
 * Parameterized datasets for reusability
 
-📸
+
 ![Datasets](screenshots/03_datasets_overview.png)
 
-📸
+
 ![SQL Dataset](screenshots/04_dataset_sql_db.png)
 
 ---
@@ -66,7 +66,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * Extracts data from source systems
 * Loads into ADLS (Landing/Bronze)
 
-📸
+
 ![Pipeline](screenshots/05_pipeline_src_landing.png)
 
 ---
@@ -76,7 +76,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * Iterates over config-driven table list
 * Enables scalable ingestion
 
-📸
+
 ![ForEach](screenshots/05a_foreach_loop.png)
 
 ---
@@ -86,7 +86,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * Calls child pipelines dynamically
 * Separates logic for modular design
 
-📸
+
 ![Execute Pipeline](screenshots/05b_execute_pipeline.png)
 
 ---
@@ -98,7 +98,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
   * Full load
   * Incremental load (watermark-based)
 
-📸
+
 ![Copy Flow](screenshots/05c_copy_activity_flow.png)
 
 ---
@@ -108,7 +108,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * Triggers Databricks notebooks
 * Processes Bronze → Silver → Gold transformations
 
-📸
+
 ![Silver Gold](screenshots/06_silver_gold_pipeline.png)
 
 ---
@@ -118,12 +118,12 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 * Entry point for full workflow
 * Coordinates ingestion + transformation
 
-📸
+
 ![Main Pipeline](screenshots/07_main_pipeline_trigger.png)
 
 ---
 
-## 💡 Key Highlights
+## Key Highlights
 
 * Config-driven ingestion using Lookup + ForEach
 * Incremental loading using watermark strategy
@@ -133,7 +133,7 @@ The pipelines follow a **config-driven architecture**, allowing dynamic executio
 
 ---
 
-## ✅ Summary
+## Summary
 
 ADF serves as the backbone of the pipeline, enabling:
 
